@@ -28,7 +28,6 @@ start = @<wikidata-reactome_pathway>
 	p:P527 @<has_part>* ;										# has part 
 	p:P2860 @<wikicite>* ;										# cites
 	p:P703 @<found_in_taxon> ;  								# species 
-#    p:P2888 @<exact_match> ;                                    # url to reactome
 
 	# Identifiers
 	p:P3937  @<reactome-identifier> ;
