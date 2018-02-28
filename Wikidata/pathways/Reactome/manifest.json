@@ -1,0 +1,10 @@
+[
+    {
+        "schemaLabel": "reactome",
+        "schemaURL": "https://raw.githubusercontent.com/skeating/schemas/master/Wikidata/pathways/Reactome/Reactome.shex",
+        "dataLabel": "Get 10 reactome Items from Wikidata" ,
+        "data": "Endpoint: https://query.wikidata.org/sparql",
+        "queryMap": "SPARQL `PREFIX wdt: <http://www.wikidata.org/prop/direct/>\n\nSELECT ?item WHERE { ?item wdt:P3937 ?geneid ; wdt:P703 wd:Q15978631 .} LIMIT 10`@START",
+        "status": "conformant"
+    }
+]
