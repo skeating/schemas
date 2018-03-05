@@ -19,8 +19,8 @@ start = @react:wikidata-reactome-pathway
 react:wikidata-reactome-pathway EXTRA p:P31 {
 
 	# Statements
-	p:P31 (@react:P31-pathway-term OR                                                                      # biological pathway
-	           @react:P31-gene-ontology-term)+ ;                         # go term if present
+	p:P31 @react:P31-pathway-term{1};                                  # biological pathway
+	p:P31 @react:P31-gene-ontology-term? ;                         # go term if present
 	p:P361 @react:P361-part-of*	;										# part of
 	p:P527 @react:P527-has-part* ;										# has part 
 	p:P2860 @react:P2860-wikicite* ;										# cites
