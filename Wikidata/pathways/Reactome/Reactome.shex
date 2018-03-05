@@ -48,10 +48,8 @@ react:P31-gene-ontology-term  {					#
 	}
 
 react:go-term {
-	p:P31 {
-		ps:P31 [
-		    wd:Q2996394   # biological process
-		    ]
+	p:P686	{
+		ps:P686 LITERAL /G0:[0-9]+/ ;
 	}
 }
 
